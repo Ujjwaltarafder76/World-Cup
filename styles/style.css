@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgba(2, 32, 61, 0.646);
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.top-banner {
+    display: flex;
+    text-decoration: none;
+    margin-inline: 3%;
+}
+
+.top {
+    text-align: left;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+button {
+    border: 0px;
+    border-radius: 2px;
+    height: 25px;
+    text-decoration: none;
+    background-color: lightcoral;
+}
+
+.container {
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* 
+    align-items: center; */
+    /* flex-wrap: wrap; */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    flex-grow: 1;
+
+
+
+}
+
+.box-2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+
+}
+
+.artical {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.artical-button-section {
+
+    width: 150px;
+    height: 210px;
+    background: black;
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-right: 10px;
+    margin-left: 5%;
+
+    border-radius: 10px;
+
+}
+
+
+
+
+.artical-button-section a {
+    display: block;
+    background: #fff;
+    height: 25px;
+    width: 100px;
+
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+
+}
+
+.artical-button-section a.active-button {
+    background: #bd2fc7;
+    color: rgb(225, 196, 196);
+
+}
+
+
+
+.artical-blog-section {
+    display: block;
+    height: 270px;
+    width: 315px;
+    font-size: 10px;
+    text-align: justify;
+    border-radius: 1px;
+    text-decoration: none;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
+}
+
+.artical-blog-section-2 {
+    display: block;
+    height: 200px;
+    width: 255px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 1px;
+    text-decoration: none;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+}
+
+.blog-section-content {
+    box-shadow: rgba(229, 103, 19, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    /* height: 150px;
+    width: 300px; */
+    font-size: 10px;
+
+}
+
+.blog-footer-content {
+
+    display: flex;
+    grid-template-rows: (2, 1fr);
+    grid-gap: 7px;
+
+}
+
+.box-3 {
+
+    text-decoration: none;
+    background-color: rgb(38, 37, 37);
+    color: azure;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    height: 150px;
+}
+
+
+.contact {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
